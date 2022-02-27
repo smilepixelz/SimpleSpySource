@@ -39,7 +39,7 @@ local lineSpace = 15
 local font = Enum.Font.Ubuntu
 local textSize = 14
 
-local backgroundColor = Color3.fromRGB(40, 44, 52)
+local backgroundColor = Color3.fromRGB(40, 40, 40)
 local operatorColor = Color3.fromRGB(187, 85, 255)
 local functionColor = Color3.fromRGB(97, 175, 239)
 local stringColor = Color3.fromRGB(152, 195, 121)
