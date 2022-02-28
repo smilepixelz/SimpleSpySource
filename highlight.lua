@@ -370,8 +370,6 @@ end
 --- @param frame userdata
 function Highlight:init(frame)
     if typeof(frame) == "Instance" and frame:IsA("Frame") then
-        frame:ClearAllChildren()
-
         parentFrame = frame
         scrollingFrame = Instance.new("ScrollingFrame")
         textFrame = Instance.new("Frame")
