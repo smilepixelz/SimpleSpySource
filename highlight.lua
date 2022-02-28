@@ -223,8 +223,6 @@ end
 function render()
     offLimits = {}
     lines = {}
-    textFrame:ClearAllChildren()
-    lineNumbersFrame:ClearAllChildren()
 
     highlightPattern(functions, functionColor)
     highlightPattern(numbers, numberColor)
